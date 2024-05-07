@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-900 leading-normal font-sans">
+
+    <header class="bg-white border-b border-gray-200">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="font-semibold text-xl">Blog</div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-gray-700 hover:text-gray-900">Home</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-gray-900">About</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-gray-900">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="py-8">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-4">Featured Posts</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="./black.jpg" alt="Featured Post Image" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg mb-2">Post Title 1</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada libero nec massa elementum, id feugiat elit bibendum.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="./black.jpg" alt="Featured Post Image" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg mb-2">Post Title 2</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada libero nec massa elementum, id feugiat elit bibendum.</p>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <img src="./black.jpg" alt="Featured Post Image" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg mb-2">Post Title 3</h3>
+                        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada libero nec massa elementum, id feugiat elit bibendum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-200 py-8">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-4">Categories</h2>
+            <div>
+                <span class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Category 1</span>
+                <span class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Category 2</span>
+                <span class="inline-block bg-gray-300 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Category 3</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-8">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-4">Recent Posts</h2>
+            <ul>
+                <li class="mb-2">
+                    <a href="#" class="text-lg font-semibold text-gray-900 hover:text-blue-600">Recent Post Title 1</a>
+                    <span class="text-gray-600 text-sm ml-2">May 1, 2024</span>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="text-lg font-semibold text-gray-900 hover:text-blue-600">Recent Post Title 2</a>
+                    <span class="text-gray-600 text-sm ml-2">April 30, 2024</span>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="text-lg font-semibold text-gray-900 hover:text-blue-600">Recent Post Title 3</a>
+                    <span class="text-gray-600 text-sm ml-2">April 29, 2024</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="bg-gray-200 py-8">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-semibold mb-4">Subscribe to Our Newsletter</h2>
+            <form>
+                <div class="flex items-center">
+                    <input type="email" class="w-full p-2 border border-gray-300 rounded-md mr-2 focus:outline-none" placeholder="Enter your email">
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>&copy; 2024 Blog. All rights reserved.</div>
+            <div>
+                <a href="#" class="text-gray-300 hover:text-gray-400 mr-4">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path
+                            d="M11.844 22V12h-3V9h3V6.69c0-3.255 2.079-5.31 5.488-5.31 1.547 0 2.864.118 3.244.172v3.047h-2.22c-1.74 0-2.076.826-2.076 2.04V9h4.165l-.54 3h-3.625v10H11.844"
+                            fill="#ffffff"></path>
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-300 hover:text-gray-400 mr-4">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path
+                            d="M20.097 4.929c-.745.33-1.542.553-2.384.653A4.17 4.17 0 0 0 18 4c-1.005 0-1.944.355-2.675.947a4.15 4.15 0 0 0-3.416-.57c-1.047.224-2.005.604-2.83 1.127-.836.522-1.543 1.17-2.11 1.92-.567.75-.993 1.594-1.263 2.492-.27.898-.385 1.838-.345 2.767-.04.93.075 1.86.345 2.767.27.897.696 1.74 1.263 2.492.567.75 1.274 1.397 2.11 1.919.825.523 1.783.903 2.83 1.127.487.105.982.158 1.475.158 1.304 0 2.527-.306 3.645-.889a8.353 8.353 0 0 1-1.302 1.296c-.696.522-1.484.92-2.322 1.205-.838.286-1.718.431-2.603.431-1.716 0-3.29-.57-4.592-1.57a9.34 9.34 0 0 1-1.822-2.145c-.462-.657-.837-1.393-1.118-2.183A10.144 10.144 0 0 1 2 12c0-1.375.265-2.707.785-3.964.521-1.258 1.271-2.425 2.22-3.437C6.19 4.486 7.278 4 8.398 4c.73 0 1.473.196 2.226.579a8.348 8.348 0 0 1 1.518.892c.436.326.84.693 1.204 1.102a8.194 8.194 0 0 1 1.178-1.102c.765-.654 1.6-1.175 2.476-1.536zM7 18.778V9.222L14.667 12l-7.668 5.778z"
+                            fill="#ffffff"></path>
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-300 hover:text-gray-400">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path
+                            d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1.765 16.237v-8.91H7.872v8.91h2.363zm0-10.91a1.503 1.503 0 0 1 1.502-1.5c.828 0 1.5.673 1.5 1.5s-.672 1.5-1.5 1.5a1.502 1.502 0 0 1-1.502-1.5zm8.13 10.91v-4.695c0-1.223.944-2.222 2.115-2.222.587 0 1.105.222 1.49.584l1.376-1.375c-.973-.96-2.267-1.556-3.705-1.556-3.12 0-5.653 2.532-5.653 5.652s2.533 5.653 5.653 5.653c1.438 0 2.732-.596 3.705-1.556l-1.376-1.375c-.384.362-.902.584-1.49.584-1.17 0-2.115-.998-2.115-2.222v-4.695h-2.363v4.695z"
+                            fill="#ffffff"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
